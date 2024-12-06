@@ -1,0 +1,30 @@
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+.photo-section {
+    margin-bottom: 30px;
+}
+.photo-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 2px solid #64b5f6;
+    border-radius: 8px;
+}
+.description {
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.description h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}

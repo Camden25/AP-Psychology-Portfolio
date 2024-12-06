@@ -1,0 +1,36 @@
+/* General layout */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Section headers */
+h2 {
+    margin-top: 30px;
+    font-size: 1.8em;
+    text-align: left;
+    color: #64b5f6;
+}
+
+/* Term section styling */
+.term-section {
+    margin-bottom: 20px;
+}
+
+.term-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border: 2px solid #64b5f6;
+    border-radius: 8px;
+}
+
+.description {
+    background-color: #1f1f1f;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: #ffffff;
+}

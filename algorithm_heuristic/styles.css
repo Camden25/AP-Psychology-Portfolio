@@ -1,0 +1,28 @@
+.screenshot-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.screenshot {
+    max-width: 300px;
+    text-align: center;
+}
+
+.screenshot img {
+    width: 100%;
+    border: 2px solid #64b5f6;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.discussion {
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-left: 4px solid #64b5f6;
+    border-radius: 5px;
+    margin-top: 15px;
+    line-height: 1.6;
+}
