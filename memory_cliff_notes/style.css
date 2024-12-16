@@ -1,0 +1,67 @@
+/* General styles for the page */
+body {
+    font-family: 'Roboto', sans-serif; /* Font used in other pages */
+    background-color: #121212; /* Dark mode background */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Styling for each chapter */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Heading styles for each section */
+section h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Specific background colors for each section */
+#encoding {
+    background-color: #ff6f61; /* Red */
+}
+
+#storing {
+    background-color: #4caf50; /* Green */
+}
+
+#retrieving {
+    background-color: #2196f3; /* Blue */
+}
+
+#mnemonic {
+    background-color: #9c27b0; /* Pink/Purple */
+}
+
+/* Styling for paragraphs and images inside sections */
+section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+section img {
+    max-width: 100%;
+    display: block;
+    margin: 10px 0;
+}
